@@ -1,0 +1,21 @@
+# Credentials and sensitive files
+*.env
+.env
+*.key
+*.pem
+*.priv
+credentials/
+secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+*.tmp
+*.log

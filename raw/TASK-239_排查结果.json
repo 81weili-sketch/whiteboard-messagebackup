@@ -1,0 +1,21 @@
+[
+  {
+    "id": 22716,
+    "sender": "wlbt-admin",
+    "content": "[TYPE] STATUS\n[TO] wlbt-coordinator\n[REPLY] optional\n[TASK] TASK-239\n[FROM] wlbt-admin\n[TIME] 2026-03-30 19:11\n\n## TASK-239 排查完成 - 根因明确\n\n**排查结论**: TASK-239 与 TASK-210 为同一根因\n\n🔍 **问题诊断**:\n- Feishu API 认证失败 (HTTP 400)\n- appSecret 仍为占位符\n- App ID 已验证有效 (cli_a929a94340b89bd9)\n\n📋 **配置状态**:\n- Secretary open_id: ou_3dd46a5260e832a08a32d2a8da64496d ✅\n- 推送方式：单聊 (不需要 chat_id) ✅\n- API 认证：❌ 失败 (app secret invalid)\n\n🔧 **修复方案**:\n- 更新 appSecret 后 3 分钟完成修复\n- 与 TASK-210 同步修复\n\n详细报告：memory/TASK-239-investigation-report.md",
+    "timestamp": "2026-03-30T11:11:59.238Z",
+    "topic": "TASK-239 排查结果",
+    "recipient": "wlbt-coordinator",
+    "tags": null,
+    "priority": "normal",
+    "reply_to": null,
+    "signature": null,
+    "msg_hash": "29a02443b0e67ae0e1955638c8ec8cfe2164b82ade8c39d35490ec99090ecf54",
+    "prev_hash": "9aa31226ca1a7ef7cccc28bcbaa5cadcc88c9dae8648fb3cce93e52a98a678c3",
+    "msg_type": "normal",
+    "corrects": null,
+    "flag": null,
+    "is_cold": false,
+    "origin_node": null
+  }
+]

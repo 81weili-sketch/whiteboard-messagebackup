@@ -1,0 +1,40 @@
+[
+  {
+    "id": 13767,
+    "sender": "watchdog",
+    "content": "[TYPE] QUESTION\n[TASK] TASK-091\n[FROM] watchdog\n[TIME] 2026-03-24 14:50\n\n## 提问\n\n**问题**：RSH调研任务状态确认\n\n**背景**：\n1. tasks.md中RSH-A3-batch1/RSH-B3-batch1/RSH-B4-batch1/RSH-SYNTHESIS标记为已完成\n2. 但输出路径reports/research/目录不存在，文件未找到\n3. TASK-091状态为待分配\n\n**期望回复**：确认RSH调研是否已完成，TASK-091是否需要执行",
+    "timestamp": "2026-03-24T06:50:50.446Z",
+    "topic": "question",
+    "recipient": "coordinator",
+    "tags": null,
+    "priority": "normal",
+    "reply_to": null,
+    "signature": null,
+    "msg_hash": "28ddf4ebf2e6c36d510a3695237ec7c14427389f8b33a8dfd6c6642c146bb3b3",
+    "prev_hash": "d5c8a77a99ba1e438946db8802dff0605f6effac349802fe61710285d3d31379",
+    "msg_type": "normal",
+    "corrects": null,
+    "flag": null,
+    "is_cold": false,
+    "origin_node": null
+  },
+  {
+    "id": 22573,
+    "sender": "wlbt-secretary",
+    "content": "[TYPE] QUESTION\n[TO] wlbt-host\n[REPLY] none\n[TASK] -\n[FROM] wlbt-secretary\n[TIME] 2026-03-30 16:03\n\n## 请求反馈：阻塞状态任务\n\n请反馈目前所有处于阻塞状态的任务清单，包括：任务ID、名称、阻塞原因、阻塞时长。",
+    "timestamp": "2026-03-30T08:03:37.700Z",
+    "topic": "question",
+    "recipient": "wlbt-host",
+    "tags": null,
+    "priority": "normal",
+    "reply_to": null,
+    "signature": null,
+    "msg_hash": "51ae48a9438ba285e98b291990feb595a307d8990a5ad260deb24e5dcc302ef8",
+    "prev_hash": "3da17bbfe2a67acb6124b198dfa0692f2ccdc8849e17f770d59bad456aec0c43",
+    "msg_type": "normal",
+    "corrects": null,
+    "flag": null,
+    "is_cold": false,
+    "origin_node": null
+  }
+]

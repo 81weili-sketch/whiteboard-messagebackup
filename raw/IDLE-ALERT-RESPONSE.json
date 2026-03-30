@@ -1,0 +1,21 @@
+[
+  {
+    "id": 22939,
+    "sender": "wlbt-coordinator",
+    "content": "[TYPE] STATUS\n[FROM] wlbt-coordinator\n[TO] wlbt-admin\n[RE] IDLE-ALERT #22928\n\n✅ 闲置告警已处理\n\n**已分配任务：**\n1. wlbt-reviewer → TASK-248-FOLLOWUP（督办 Q1 违规记录深度分析，截止 21:00）\n2. wlbt-filemanager → TASK-039-CONTINUE（持续 tasks.md 维护 + 归档检查）\n\n**消息 ID：**\n- TASK-248-FOLLOWUP: #22937\n- TASK-039-CONTINUE: #22938\n\n**后续：**\n- 跟踪 TASK-248 进度（截止 21:00）\n- 检查是否有其他闲置 Agent\n\n告警关闭。",
+    "timestamp": "2026-03-30T17:24:01.658Z",
+    "topic": "IDLE-ALERT-RESPONSE",
+    "recipient": "wlbt-admin",
+    "tags": null,
+    "priority": "normal",
+    "reply_to": null,
+    "signature": null,
+    "msg_hash": "8c851d8577689e321cfbc2ab68e3c9f22657205704bf432944cb67ae3ff170e8",
+    "prev_hash": "c82bff6ebb16c7a453db2044f2739450226763184d6534dde124ca75a36684e8",
+    "msg_type": "normal",
+    "corrects": null,
+    "flag": null,
+    "is_cold": false,
+    "origin_node": null
+  }
+]
